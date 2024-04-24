@@ -205,18 +205,54 @@ main section {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 0px;
+  text-align: justify;
 }
-.resume-container hr{
+.resume-container hr {
   margin: 30px 0px;
 }
-.download-btn{
+.download-btn {
   text-align: center;
   margin: 50px 0px 130px;
 }
 
 /* footer styles */
-footer{
+footer {
   display: flex;
-  background: #FFF8F3;
-  padding: 130px 230px;
+  background: #fff8f3;
+  padding: 130px 200px;
+  gap: 100px;
+}
+.footer-description {
+  text-align: justify;
+  color: #474747;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.footer-column {
+  width: 50%;
+}
+.social-link {
+  margin-top: 0px;
+}
+.social-link a img {
+  margin-right: 24px;
+}
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  width: 100%;
+
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+.last{
+  text-align: center;
+  font: bold;
 }
