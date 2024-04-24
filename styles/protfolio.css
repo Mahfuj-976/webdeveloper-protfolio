@@ -16,10 +16,11 @@ body {
   font-size: 20px;
   color: white;
   font-weight: 700;
-  padding: 18px 35px 19px 36px;
+  /* padding: 18px 35px 19px 36px; */
   width: 200px;
   height: 64px;
   flex-shrink: 0;
+  
 }
 .contact-btn {
   width: 160px;
@@ -30,7 +31,7 @@ body {
   font-weight: 700;
   color: #fd6e0a;
   background: white;
-  padding: 18px 35px 19px 36px;
+  /* padding: 18px 35px 19px 36px; */
 }
 
 /* Nav related styles*/
@@ -64,8 +65,8 @@ nav a {
 /* header related style */
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
-  background-position: bottom right;
+  background-image: url("../images/header_bg.png") , url('../images/developer.png');
+  background-position: bottom right , top left;
   background-repeat: no-repeat;
   margin-right: 0px;
 }
@@ -213,6 +214,7 @@ main section {
 .download-btn {
   text-align: center;
   margin: 50px 0px 130px;
+  
 }
 
 /* footer styles */
